@@ -40,8 +40,9 @@ with socket.create_server((HOST, PORT)) as s:
         while data := conn.recv(1024):
             conn.sendall(data)
 ```
-## OUTPUT:
-![image](https://github.com/user-attachments/assets/a1423e2a-62c7-43fb-874b-b61e70909889)
+## OUTPUT
+![image](https://github.com/user-attachments/assets/fc9377e7-552d-422f-906c-1af1cdba8b0e)
+
 
 ## RESULT:
 The program is executed successfully.
